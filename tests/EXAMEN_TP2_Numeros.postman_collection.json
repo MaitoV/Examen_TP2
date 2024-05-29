@@ -1,0 +1,113 @@
+{
+	"info": {
+		"_postman_id": "d606b643-66c6-42cd-beb4-5e7adf164934",
+		"name": "EXAMEN_TP2_Numeros",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "obtener todos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/numeros/entrada",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"numeros",
+						"entrada"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "promedio",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/numeros/promedio",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"numeros",
+						"promedio"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "min max",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/numeros/minmax",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"numeros",
+						"minmax"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "cantidad",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/numeros/cantidad",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"numeros",
+						"cantidad"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Agregar numero",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"numero\": 198}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/numeros/entrada",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"numeros",
+						"entrada"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
